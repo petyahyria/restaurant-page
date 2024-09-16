@@ -4,14 +4,59 @@
     margin: 0;
 }
 
+body{
+    background-color: #cbd5e1;
+    font-family: "Montserrat", sans-serif;
+}
+
 header, #content{
     width: 70vw;
     margin: 0 auto;
+    background-color: #fafafa;
+}
+
+header{
+    padding: 20px;
+}
+
+header>nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+header > nav > button{
+    display: block;
+    width: 300px;
+    padding: 8px 16px;
+    border-style: none;
+    background-color: #020617;
+    color: #fafafa;
+    font-size: 16px;
+    border: 3px solid transparent;
+}
+
+header > nav > button:hover{
+    background-color: #fafafa;
+    color: #020617;
+    border: 3px solid #020617;
+}
+
+#content{
+    padding: 20px;
 }
 
 .hero-image{
     display: block;
     height: auto;
-    width: 40vw;
-    margin: 0 auto;
+    width: 100%;
+}
+
+.description{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
 }
