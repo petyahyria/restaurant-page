@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header, #content{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.hero-image{
+    display: block;
+    height: auto;
+    width: 40vw;
+    margin: 0 auto;
+}

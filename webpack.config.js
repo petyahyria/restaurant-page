@@ -8,11 +8,11 @@ module.exports = {
         filename: "main.js",
         path: path.resolve(__dirname, "dist"),
         clean: true,
+        publicPath: '/',
     },
     devtool: "eval-source-map",
     devServer: {
-        static: "./dist",
-        watchFiles: ["./src/template.html"],
+        static: './dist',
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -27,8 +27,8 @@ module.exports = {
             },
             {
                 test: /\.(jpg|jpeg)$/i,
-                use: "asset/resource",
+                type: "asset/resource",
             }
         ],
-    }
+    },
 }

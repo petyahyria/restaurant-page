@@ -1,3 +1,4 @@
 import "./style.css";
+import {loadFunction} from "./modules/loadFunction.js"
 
-alert("it works!");
+loadFunction();
