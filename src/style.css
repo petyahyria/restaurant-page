@@ -42,6 +42,18 @@ header > nav > button:hover{
     border: 3px solid #020617;
 }
 
+.active-btn{
+    background-color: #fafafa;
+    color: #020617;
+    border: 3px solid #020617;
+}
+
+.active-btn:hover{
+    background-color: #020617;
+    color: #fafafa;
+    border: 3px solid transparent;
+}
+
 #content{
     padding: 20px;
 }
