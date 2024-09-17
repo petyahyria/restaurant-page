@@ -1,8 +1,9 @@
 export {loadHomepage};
 import homepageImg from "../images/homepage-img.jpg"
+import { root } from "./variables";
 
 function loadHomepage(){
-    const root = document.querySelector("#content")
+    
     const homepageImage = document.createElement("img");
     homepageImage.src = homepageImg;
     homepageImage.classList.add("hero-image");
