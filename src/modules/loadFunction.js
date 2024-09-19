@@ -6,7 +6,8 @@ import { loadAboutpage } from "./loadAboutpage";
 
 
 function loadFunction(){
-        
+        loadMenupage();
+        root.innerHTML = "";
         loadHomepage();
 
         const homeBtn = document.querySelector("#home-btn");
