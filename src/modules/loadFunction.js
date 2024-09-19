@@ -2,6 +2,7 @@ export {loadFunction};
 import { root } from "./variables";
 import {loadHomepage} from "./loadHomepage";
 import {loadMenupage} from "./loadMenu"
+import { loadAboutpage } from "./loadAboutpage";
 
 
 function loadFunction(){
@@ -28,6 +29,12 @@ function loadFunction(){
                 case "menu-btn":
                     root.innerHTML = ""
                     loadMenupage();
+                    removeClassActive();
+                    target.classList.add("active-btn");
+                    break;
+                case "about-btn":
+                    root.innerHTML = ""
+                    loadAboutpage();
                     removeClassActive();
                     target.classList.add("active-btn");
                     break;

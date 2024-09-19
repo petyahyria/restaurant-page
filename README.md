@@ -57,6 +57,11 @@
 
   <a href="https://www.vecteezy.com/free-photos/background">Background Stock photos by Vecteezy</a>
 
+  //about
+
+  Photo by <a href="https://unsplash.com/@fabmag?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabrizio Magoni</a> on <a href="https://unsplash.com/photos/person-preparing-cooked-dish-boaDpmC-_Xo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+
 
   
   
