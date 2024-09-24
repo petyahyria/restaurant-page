@@ -8,14 +8,14 @@
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(601);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(354);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(314);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `*{
     box-sizing: border-box;
@@ -124,7 +124,7 @@ header > nav > button:hover{
     height: auto;
     border: 3px solid #cbd5e1;
     aspect-ratio: 16/9;
-}`, ""]);
+}`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;IACI,sBAAsB;IACtB,UAAU;IACV,SAAS;AACb;;AAEA;IACI,yBAAyB;IACzB,qCAAqC;AACzC;;AAEA;IACI,WAAW;IACX,cAAc;IACd,yBAAyB;AAC7B;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,SAAS;IACT,uBAAuB;AAC3B;;AAEA;IACI,cAAc;IACd,YAAY;IACZ,iBAAiB;IACjB,kBAAkB;IAClB,yBAAyB;IACzB,cAAc;IACd,eAAe;IACf,6BAA6B;AACjC;;AAEA;IACI,yBAAyB;IACzB,cAAc;IACd,yBAAyB;AAC7B;;AAEA;IACI,yBAAyB;IACzB,cAAc;IACd,yBAAyB;AAC7B;;AAEA;IACI,yBAAyB;IACzB,cAAc;IACd,6BAA6B;AACjC;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,cAAc;IACd,YAAY;IACZ,WAAW;IACX,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,aAAa;IACb,sBAAsB;IACtB,SAAS;IACT,gBAAgB;IAChB,eAAe;AACnB;;AAEA,SAAS;;AAET;IACI,aAAa;IACb,SAAS;IACT,aAAa;IACb,mEAAmE;AACvE;;AAEA;;;;;IAKI,aAAa;IACb,yBAAyB;IACzB,aAAa;IACb,sBAAsB;IACtB,SAAS;AACb;;AAEA;;;;;IAKI,cAAc;IACd,WAAW;IACX,YAAY;IACZ,yBAAyB;IACzB,kBAAkB;AACtB","sourcesContent":["*{\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0;\n}\n\nbody{\n    background-color: #cbd5e1;\n    font-family: \"Montserrat\", sans-serif;\n}\n\nheader, #content{\n    width: 70vw;\n    margin: 0 auto;\n    background-color: #fafafa;\n}\n\nheader{\n    padding: 20px;\n}\n\nheader>nav{\n    display: flex;\n    gap: 20px;\n    justify-content: center;\n}\n\nheader > nav > button{\n    display: block;\n    width: 300px;\n    padding: 8px 16px;\n    border-style: none;\n    background-color: #020617;\n    color: #fafafa;\n    font-size: 16px;\n    border: 3px solid transparent;\n}\n\nheader > nav > button:hover{\n    background-color: #fafafa;\n    color: #020617;\n    border: 3px solid #020617;\n}\n\n.active-btn{\n    background-color: #fafafa;\n    color: #020617;\n    border: 3px solid #020617;\n}\n\n.active-btn:hover{\n    background-color: #020617;\n    color: #fafafa;\n    border: 3px solid transparent;\n}\n\n#content{\n    padding: 20px;\n}\n\n.hero-image{\n    display: block;\n    height: auto;\n    width: 100%;\n    aspect-ratio: 16/7;\n}\n\n.description{\n    padding: 20px 10px;\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n    font-weight: 500;\n    font-size: 16px;\n}\n\n/* menu */\n\n.starters, .main-dishes, .sides, .desserts , .drinks{\n    padding: 10px;\n    gap: 20px;\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(calc(70vw/2.6),1fr));\n}\n\n.starters > div,\n.main-dishes > div, \n.sides>div, \n.desserts > div, \n.drinks > div{\n    padding: 10px;\n    border: 3px solid #020617;\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n}\n\n.starters > div > img, \n.main-dishes > div > img, \n.sides > div > img, \n.desserts > div > img, \n.drinks > div > img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border: 3px solid #cbd5e1;\n    aspect-ratio: 16/9;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -222,13 +222,24 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ 601:
+/***/ 354:
 /***/ ((module) => {
 
 
 
-module.exports = function (i) {
-  return i[1];
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
+  if (!cssMapping) {
+    return content;
+  }
+  if (typeof btoa === "function") {
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    return [content].concat([sourceMapping]).join("\n");
+  }
+  return [content].join("\n");
 };
 
 /***/ }),
@@ -944,3 +955,4 @@ function loadFunction(){
 loadFunction();
 /******/ })()
 ;
+//# sourceMappingURL=main.js.map
